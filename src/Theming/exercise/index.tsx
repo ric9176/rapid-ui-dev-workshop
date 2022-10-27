@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 // import theme from "./theme";
 
 /*
@@ -13,7 +13,7 @@ import styled from "styled-components";
   remember that you can call a function inside styled-components:
   color: ${props => YOUR EXPRESSION};
 */
-const Card = styled("div")`
+const Card = styled('div')`
   border-radius: 8px;
   padding: 16px;
   box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
@@ -26,7 +26,7 @@ const Card = styled("div")`
 /*
   in this component just use the background color from the theme and asign it to this component
 */
-const Wrapper = styled("div")`
+const Wrapper = styled('div')`
   padding: 40px;
 `;
 
@@ -38,7 +38,7 @@ const Wrapper = styled("div")`
 
 const ThemingExercise = () => (
   <Wrapper>
-    <Card>Hallo I'm a Card</Card>
+    <Card>Hello I'm a Card</Card>
   </Wrapper>
 );
 

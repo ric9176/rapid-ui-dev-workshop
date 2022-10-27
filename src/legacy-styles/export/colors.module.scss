@@ -1,8 +1,9 @@
+// we import the existing sass variables
 @import '../variables.scss';
 
+// we can export them as js vars...
 :export {
   darkBlue: $dark-blue;
-  // export the rest of the variables here
   lightBlue: $light-blue;
   lightGrey: $light-grey;
   grey: $grey;

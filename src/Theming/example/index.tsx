@@ -1,8 +1,14 @@
-import React from "react";
-import styled, { ThemeProvider } from "styled-components";
-import theme from "./theme";
+import React from 'react';
+import styled, { ThemeProvider } from 'styled-components';
+import theme from './theme';
 
-const Button = styled("button")`
+//Making use of Typescript’s type inference for our theme object 😉
+declare module 'styled-components' {
+  type Theme = typeof theme;
+  export interface DefaultTheme extends Theme {}
+}
+
+const Button = styled('button')`
   background: white;
   border-radius: 8px;
   font-size: 24px;
@@ -18,7 +24,7 @@ const Button = styled("button")`
   }
 `;
 
-const Wrapper = styled("div")`
+const Wrapper = styled('div')`
   padding: 40px;
   background: ${props => props.theme.colors.background};
 `;

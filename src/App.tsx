@@ -1,8 +1,8 @@
 import Header from './Header';
 import ThemingExample from './Theming/example';
-import ThemingExcercise from './Theming/exercise'
-import VariantsExample from './Variants/example'
-import VariantsExcercise from './Variants/exercise'
+import ThemingExcercise from './Theming/exercise';
+import VariantsExample from './Variants/example';
+import VariantsExcercise from './Variants/exercise';
 import { Box, VStack, StackDivider, Heading } from '@chakra-ui/react';
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
     <>
       <Header />
       <VStack
-        divider={<StackDivider borderColor='gray.200' />}
+        divider={<StackDivider borderColor="gray.200" />}
         spacing={4}
-        align='stretch'
+        align="stretch"
         m={6}
       >
         <Heading>Basic Theme Example</Heading>
@@ -24,17 +24,14 @@ function App() {
           <ThemingExcercise />
         </Box>
         <Heading>Variants example</Heading>
-          <VariantsExample />
+        <VariantsExample />
         <Box>
           <VariantsExcercise />
         </Box>
         <Heading>Chakra example</Heading>
-        <Box>
-          Chakra theme extension excercise
-        </Box>
-        
+        <Box>Chakra theme extension excercise</Box>
       </VStack>
-    
+
       {/* <ThemedApp /> */}
     </>
   );
