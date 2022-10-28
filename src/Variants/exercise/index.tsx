@@ -1,6 +1,6 @@
-import React from "react";
-import styled, { ThemeProvider } from "styled-components";
-import theme from "./theme";
+import React from 'react';
+import styled, { ThemeProvider } from 'styled-components';
+import theme from './theme';
 // import { variant } from 'styled-system'
 
 // TODO: create a variant called `alertStyle`
@@ -11,7 +11,10 @@ import theme from "./theme";
   *if you have questions why at the end ask us!
 */
 
-const Alert = styled("div")`
+interface AlertProps {
+  variant?: 'default' | 'error' | 'success' | 'warning';
+}
+const Alert = styled('div')<AlertProps>`
   border-radius: 8px;
   padding: 8px;
   box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
@@ -22,7 +25,7 @@ const Alert = styled("div")`
   text-align: center;
 `;
 
-const Wrapper = styled("div")`
+const Wrapper = styled('div')`
   background-color: ${props => props.theme.colors.background};
   padding: 40px;
 `;
