@@ -1,4 +1,4 @@
-import legacyColors from '../../legacy-styles/export/colors.module.scss';
+import legacyColors from '../../legacy-styles/export/legacyColors.scss';
 console.log('🚀 ~ file: theme.js ~ line 2 ~ legacyColors', legacyColors);
 
 const COLOR_BLUE = '#02BAFF';
