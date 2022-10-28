@@ -1,4 +1,5 @@
 import Header from './Header';
+import Container from './StyledComponts';
 import ThemingExample from './Theming/example';
 import ThemingExcercise from './Theming/exercise';
 import VariantsExample from './Variants/example';
@@ -15,6 +16,10 @@ function App() {
         align="stretch"
         m={6}
       >
+        <Heading>Using sass vars in syled components example</Heading>
+        <Box p={4}>
+          <Container />
+        </Box>
         <Heading>Basic Theme Example</Heading>
         <Box p={4}>
           <ThemingExample />
