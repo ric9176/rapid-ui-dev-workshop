@@ -55,7 +55,7 @@ const VariantsExample = ({ ...props }) => (
       <Button variant="secondary" {...props}>
         Secondary Button
       </Button>
-      <Box width="2em" height="2em" mb={4} bg="blue"></Box>
+      <Box width="2em" height="2em" mb={4} bg="background"></Box>
     </Wrapper>
   </ThemeProvider>
 );
