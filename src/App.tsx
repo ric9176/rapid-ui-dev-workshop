@@ -21,9 +21,7 @@ function App() {
           <Container />
         </Box>
         <Heading>Basic Theme Example</Heading>
-        <Box p={4}>
-          <ThemingExample />
-        </Box>
+        <Box p={4}>{/* <ThemingExample /> */}</Box>
         <Heading>Exercise 1</Heading>
         <Box>
           <ThemingExcercise />

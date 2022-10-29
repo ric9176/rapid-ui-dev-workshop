@@ -6,6 +6,7 @@ declare module '*legacyColors.scss' {
     grey: string;
     darkGrey: string;
     black: string;
+    salmon: string;
   };
   export default classes;
 }
