@@ -6,6 +6,7 @@ import VariantsExample from './Variants/example';
 import VariantsExcercise from './Variants/exercise';
 import StyledSystem from './StyledSystem';
 import StyledSystemExample from './StyledSystem/StyledSystemExample';
+import ChakraExample from './Chakra';
 import { Box, VStack, StackDivider, Heading } from '@chakra-ui/react';
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
         <Box p={4}>
           <ThemingExample />
         </Box>
-        <Heading>Exercise 1</Heading>
+        <Heading>Themeing Excercise</Heading>
         <Box>
           <ThemingExcercise />
         </Box>
@@ -34,6 +35,7 @@ function App() {
         <Box p={4}>
           <StyledSystemExample />
         </Box>
+        <Heading>Styled System Excercise</Heading>
         <Box p={4}>
           <StyledSystem />
         </Box>
@@ -43,10 +45,11 @@ function App() {
           <VariantsExcercise />
         </Box>
         <Heading>Chakra example</Heading>
+        <Box p={4}>
+          <ChakraExample />
+        </Box>
         <Box p={4}>Chakra theme extension excercise</Box>
       </VStack>
-
-      {/* <ThemedApp /> */}
     </>
   );
 }
