@@ -2,11 +2,6 @@ import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from './theme';
 
-// declare module 'styled-components' {
-//   type Theme = typeof theme;
-//   export interface DefaultTheme extends Theme {}
-// }
-
 /*
   Exercise TODO:
   - Wrap the whole component with the `ThemeProvider` from "styled-components".
@@ -15,8 +10,9 @@ import theme from './theme';
 */
 
 /*
-  remember that you can call a function inside styled-components:
+  Remember that you can call a function inside styled-components:
   color: ${props => YOUR EXPRESSION};
+  Try adding a background color from the theme!
 */
 const Card = styled('div')`
   border-radius: 8px;
@@ -25,7 +21,6 @@ const Card = styled('div')`
   font-size: 18px;
   font-weight: 800;
   text-align: center;
-  background-color: ${({ theme }) => theme.colors.darkBlue};
 `;
 
 /*
@@ -33,7 +28,6 @@ const Card = styled('div')`
 */
 const Wrapper = styled('div')`
   padding: 40px;
-  background-color: ${({ theme }) => theme.colors.salmon};
 `;
 
 /*
@@ -43,11 +37,9 @@ const Wrapper = styled('div')`
 */
 
 const ThemingExercise = () => (
-  <ThemeProvider theme={theme}>
-    <Wrapper>
-      <Card>Hello I'm a Card</Card>
-    </Wrapper>
-  </ThemeProvider>
+  <Wrapper>
+    <Card>Hello I'm a Card</Card>
+  </Wrapper>
 );
 
 export default ThemingExercise;
