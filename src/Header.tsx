@@ -1,4 +1,4 @@
-import { Box, Icon, Spacer, Flex, Heading, Link } from '@chakra-ui/react';
+import { Box, Icon, Spacer, Flex, Heading, Link, Text } from '@chakra-ui/react';
 import { FaGithub } from 'react-icons/fa';
 
 const Header = () => (
@@ -12,7 +12,7 @@ const Header = () => (
     <Spacer />
     <Box>
       <Link href="https://github.com/ric9176/rapid-ui-dev-workshop">
-        <Icon as={FaGithub} m={4} />
+        <Icon w={6} h={6} as={FaGithub} m={2} />
       </Link>
     </Box>
   </Flex>

@@ -65,31 +65,3 @@ If we are using Chakra, we probably want to customize the default theme.
 1. Extend the Chakra theme in theme.ts to bring in our brand colors and apply them to the design, perhaps the background of the badge on line 21 ;-)
 
 Bonus: Overide a chakra component with custom styles https://chakra-ui.com/docs/styled-system/component-style
-
-### pt 1
-
-1. Refactor the `FunctionalComponent.jsx` component to implement the useRandomImage hook and display the image using the Image component (it taks an src prop 😉)
-
-2. Update the useRandomImage hook so that it also returns a function we can call to refetch the image and pass that to the onClick of a Button
-
-### pt 2
-
-1. Create and export a new component in `useRandomImage` that implements the render props pattern.
-
-Refactor the `ClassComponentRenderProps.jsx` component to implement the useRandomImage hook making use of your render props component export that work in a class.
-
-2. Create and export a new function in `useRandomImage` that implements the HOC pattern.
-
-Refactor the `ClassComponentHOC.js` component to implement the useRandomImage hook making use of your HOC component export that work in a class.
-
-## Context Exercise
-
-1. Finish implementing the ThemeProvider context in `src/exerciseContext/ThemeProvider.jsx` Hint: There are lots of code comments in this file, read them :-)
-
-2. In `index.js` implement your provider by wrapping the app.
-
-3. In `src/exerciseContext/ThemedApp.jsx` use your `useTheme` hook to get the function that updates the theme state and pass it to the onClick handler of the Button.
-
-## API reference
-
-These exercises use the Rick and Morty api for the images: https://rickandmortyapi.com/documentation/#rest
