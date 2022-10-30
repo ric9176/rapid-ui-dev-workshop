@@ -1,12 +1,14 @@
-declare module '*legacyColors.scss' {
+declare module '*brandColors.scss' {
   const classes: {
-    darkBlue: string;
-    lightBlue: string;
-    lightGrey: string;
-    grey: string;
-    darkGrey: string;
-    black: string;
-    salmon: string;
+    electronBlue: string;
+    shyMoment: string;
+    firstDate: string;
+    orangeville: string;
+    pintGlamor: string;
+    sourLemon: string;
+    robinsEgg: string;
+    mintLeaf: string;
+    americanRiver: string;
   };
   export default classes;
 }

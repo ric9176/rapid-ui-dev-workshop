@@ -18,7 +18,7 @@ export default function Example() {
         <Box p="5" maxW="320px" borderWidth="1px">
           <Image borderRadius="md" src="https://bit.ly/2k1H1t6" />
           <Flex align="baseline" mt={2}>
-            <Badge bg="salmon">Plus</Badge>
+            <Badge bg="brand.mint">Plus</Badge>
             <Text
               ml={2}
               textTransform="uppercase"
@@ -47,5 +47,5 @@ export default function Example() {
 
 // https://chakra-ui.com/docs/styled-system/theme
 
-// 1. extend chakra theme to bring in our brand colors
-// 2. Overide a chakra component with custom styles https://chakra-ui.com/docs/styled-system/component-style
+// 1. Extend the Chakra theme to bring in our brand colors and apply them to the design, perhaps the bg of the badge on line 21 ;-)
+// Bonus: Overide a chakra component with custom styles https://chakra-ui.com/docs/styled-system/component-style

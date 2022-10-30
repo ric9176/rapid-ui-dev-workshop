@@ -1,0 +1,15 @@
+// we import the existing sass variables
+@import '../variables.scss';
+
+// we can export them as js vars...
+:export {
+  electronBlue: $electron-blue;
+  shyMoment: $shy-moment;
+  firstDate: $first-date;
+  orangeville: $orangeville;
+  pintGlamor: $pint-glamor;
+  sourLemon: $sour-lemon;
+  robinsEgg: $robins-egg;
+  mintLeaf: $mint-leaf;
+  americanRiver: $american-river;
+}

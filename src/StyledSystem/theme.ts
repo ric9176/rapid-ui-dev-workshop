@@ -1,4 +1,4 @@
-// import legacyColors from '../legacy-styles/export/legacyColors.scss';
+// import brandColors from '../legacy-styles/export/brandColors.scss';
 
 const COLOR_BLUE = '#02BAFF';
 const COLOR_GREEN = '#00b894';

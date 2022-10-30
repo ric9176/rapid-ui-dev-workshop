@@ -1,5 +1,4 @@
-import legacyColors from '../../legacy-styles/export/legacyColors.scss';
-console.log('🚀 ~ file: theme.js ~ line 2 ~ legacyColors', legacyColors);
+import brandColors from '../../legacy-styles/export/brandColors.scss';
 
 const COLOR_BLUE = '#02BAFF';
 const COLOR_GREEN = '#3f714c';
@@ -10,7 +9,7 @@ const space = [0, 4, 8, 16, 32, 64, 128, 256, 512];
 const theme = {
   space,
   colors: {
-    blue: legacyColors.darkBlue,
+    blue: brandColors.electronBlue,
     green: COLOR_GREEN,
     background: COLOR_BACKGROUND,
   },

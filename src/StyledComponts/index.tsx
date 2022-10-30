@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import legacyColors from '../legacy-styles/export/legacyColors.scss';
+import brandColors from '../legacy-styles/export/brandColors.scss';
 
 const Container = styled.div.attrs({ className: 'box' })`
   width: 3em;
   height: 3em;
-  background-color: ${legacyColors.lightBlue};
+  background-color: ${brandColors.electronBlue};
 `;
 
 const Box = () => <Container as="button">hello</Container>;

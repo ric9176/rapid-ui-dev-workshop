@@ -18,5 +18,5 @@
     "jsx": "react-jsx",
     "strictNullChecks": false
   },
-  "include": ["src", "src/types/legacyColors.d.ts"]
+  "include": ["src", "src/types/brandColors.d.ts"]
 }
