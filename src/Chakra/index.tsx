@@ -13,7 +13,7 @@ import theme from './theme';
 
 // https://chakra-ui.com/docs/styled-system/theme
 
-// 1. Extend the Chakra theme to bring in our brand colors and apply them to the design, perhaps the bg of the badge on line 21 ;-)
+// Extend the Chakra theme to bring in our brand colors and apply them to the design, perhaps the bg of the badge on line 21 ;-)
 // Bonus: Overide a chakra component with custom styles https://chakra-ui.com/docs/styled-system/component-style
 
 const Example = () => (
