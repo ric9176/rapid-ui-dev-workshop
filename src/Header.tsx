@@ -1,5 +1,6 @@
 import { Box, Icon, Spacer, Flex, Heading, Link, Text } from '@chakra-ui/react';
 import { FaGithub } from 'react-icons/fa';
+import { ColorModeSwitcher } from './ColorModeSwitcher';
 
 const Header = () => (
   <Flex as="nav" bg="teal.500" p="1rem">
@@ -10,11 +11,10 @@ const Header = () => (
       </Heading>
     </Box>
     <Spacer />
-    <Box>
-      <Link href="https://github.com/ric9176/rapid-ui-dev-workshop">
-        <Icon w={6} h={6} as={FaGithub} m={2} />
-      </Link>
-    </Box>
+    <Link href="https://github.com/ric9176/rapid-ui-dev-workshop">
+      <Icon w={6} h={6} as={FaGithub} m={2} />
+    </Link>
+    <ColorModeSwitcher />
   </Flex>
 );
 
