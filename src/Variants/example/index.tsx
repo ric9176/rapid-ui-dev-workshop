@@ -2,30 +2,18 @@ import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from './theme';
 import { variant, space, SpaceProps, color, ColorProps } from 'styled-system';
-import { layout, LayoutProps } from 'styled-system';
 import {} from '@chakra-ui/react';
 
-// interface Props extends SpaceProps, ColorProps, LayoutProps {
-//   children: React.ReactNode;
-// }
+type StyleProps = SpaceProps & ColorProps;
 
-type BoxProps = SpaceProps & ColorProps & LayoutProps;
-const Box = styled.div<BoxProps>`
-  ${space}
-  ${color}
-  ${layout}
-`;
+interface ButtonProps extends StyleProps {
+  variant?: 'primary' | 'secondary';
+  children: React.ReactNode;
+}
 
 const buttonStyle = variant({
   key: 'buttons',
 });
-// tasks:
-// 1. Move the rest of these styles into the theme
-// 2. Try adding the space and color utils from styled-system to add flexibility
-interface ButtonProps {
-  variant?: 'primary' | 'secondary';
-  children: React.ReactNode;
-}
 
 const Button = styled('button')<ButtonProps>`
   background: white;
@@ -36,7 +24,8 @@ const Button = styled('button')<ButtonProps>`
   margin: 16px;
   transition: all 0.2s ease;
   ${buttonStyle};
-  ${space};
+  ${color};
+  ${space}
 `;
 
 Button.defaultProps = {
@@ -48,14 +37,11 @@ const Wrapper = styled('div')`
   background: ${props => props.theme.colors.background};
 `;
 
-const VariantsExample = ({ ...props }) => (
+const VariantsExample = () => (
   <ThemeProvider theme={theme}>
     <Wrapper>
       <Button>Primary Button</Button>
-      <Button variant="secondary" {...props}>
-        Secondary Button
-      </Button>
-      <Box width="2em" height="2em" mb={4} bg="background"></Box>
+      <Button variant="secondary">Secondary Button</Button>
     </Wrapper>
   </ThemeProvider>
 );

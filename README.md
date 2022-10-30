@@ -52,6 +52,7 @@ Open the `src/Variants` folder and open up `/excercise`
 1. Create a cariant called alertStyle
 2. In theme.ts add your variants for default, error, sucess and warning
 3. Add the variant to your Alert styled component at the end
+4. Add default props to the Alert component so the variant prop doesn't have to be passed
    Bonus: Check out the docs to see how to write the variants inline: https://styled-system.com/variants#variants. Try it this way also, which do you like better?
 
 ## Chakra Excercise

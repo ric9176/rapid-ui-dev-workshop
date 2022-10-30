@@ -45,10 +45,9 @@ function App() {
           <VariantsExcercise />
         </Box>
         <Heading>Chakra example</Heading>
-        <Box p={4}>
+        <Box p={5} mb={5}>
           <ChakraExample />
         </Box>
-        <Box p={4}>Chakra theme extension excercise</Box>
       </VStack>
     </>
   );

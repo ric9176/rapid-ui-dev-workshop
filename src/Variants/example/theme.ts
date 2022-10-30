@@ -16,7 +16,7 @@ const theme = {
   buttons: {
     primary: {
       color: COLOR_BLUE,
-      // paddingBottom: space[3],
+      // paddingBottom: space[4],
       border: `3px solid ${COLOR_BLUE}`,
       ':hover': {
         backgroundColor: COLOR_BLUE,

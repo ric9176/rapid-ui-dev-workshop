@@ -25,39 +25,41 @@ const Alert = styled('div')<AlertProps>`
 `;
 
 //NOTE: You can choose to do this inline: https://styled-system.com/variants#variants
-// const Alert = styled('div')<AlertProps>(
-//   {
-//     borderRadius: '8px',
-//     padding: '8px',
-//     boxShadow:
-//       '0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14) 0 1px 3px 0 rgba(0, 0, 0, 0.12)',
-//     fontSize: '18px',
-//     margin: '24px',
-//     fontWeight: '800',
-//     textAlign: 'center',
-//   },
-//   variant({
-//     variants: {
-//       default: {
-//         backgroundColor: '#0984e3',
-//       },
-//       success: {
-//         backgroundColor: '#00b894',
-//       },
-//       error: {
-//         backgroundColor: '#d63031',
-//       },
-//       warning: {
-//         backgroundColor: '#fdcb6e',
-//       },
+// const Alert = styled('div')<AlertProps>();
+// {
+//   borderRadius: '8px',
+//   padding: '8px',
+//   boxShadow:
+//     '0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14) 0 1px 3px 0 rgba(0, 0, 0, 0.12)',
+//   fontSize: '18px',
+//   margin: '24px',
+//   fontWeight: '800',
+//   textAlign: 'center',
+// },
+// variant({
+//   variants: {
+//     scale: 'alerts',
+//     default: {
+//       backgroundColor: '#0984e3',
 //     },
-//   })
-// );
+//     success: {
+//       backgroundColor: '#00b894',
+//     },
+//     error: {
+//       backgroundColor: '#d63031',
+//     },
+//     warning: {
+//       backgroundColor: '#fdcb6e',
+//     },
+//   },
+// })
 
 const Wrapper = styled('div')`
   background-color: ${({ theme }) => theme.colors.background};
   padding: 40px;
 `;
+
+//TODO: add default props to the alert component
 
 // TODO: here you have hints on how the variants should be named...
 const VariantsExercise = () => (
