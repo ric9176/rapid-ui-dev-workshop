@@ -41,10 +41,11 @@ function App() {
         </Box>
         <Heading>Variants example</Heading>
         <VariantsExample />
+        <Heading>Variants Excercise</Heading>
         <Box>
           <VariantsExcercise />
         </Box>
-        <Heading>Chakra example</Heading>
+        <Heading>Chakra Example</Heading>
         <Box p={5} mb={5}>
           <ChakraExample />
         </Box>

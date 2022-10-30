@@ -4,55 +4,25 @@ import { variant } from 'styled-system';
 
 import theme from './theme';
 
-// TODO: create a variant called `alertStyle`
-/*
-  in order to add these new variant styles to your component,
-  you need to add it to your styles AT THE END.
+// TODO: create a variant called `alertVariants` and add it to the Alert styled component at the end
 
-*/
+// TODO/HINT: Use the interface below for the Alert propss
+// interface AlertProps {
+//   variant?: 'default' | 'error' | 'success' | 'warning';
+// }
 
-interface AlertProps {
-  variant?: 'default' | 'error' | 'success' | 'warning';
-}
-
-const alertVariants = variant({
-  scale: 'alerts',
-  // prop: 'variant', //NOTE: You can change the name of the variant prop, it defaults to vairant if omitted
-});
-
-const Alert = styled('div')<AlertProps>`
-  ${alertVariants}
+const Alert = styled('div')`
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  font-size: 18px;
+  margin: 24px;
+  font-weight: 800;
+  text-align: center;
 `;
 
 //NOTE: You can choose to do this inline: https://styled-system.com/variants#variants
-// const Alert = styled('div')<AlertProps>();
-// {
-//   borderRadius: '8px',
-//   padding: '8px',
-//   boxShadow:
-//     '0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14) 0 1px 3px 0 rgba(0, 0, 0, 0.12)',
-//   fontSize: '18px',
-//   margin: '24px',
-//   fontWeight: '800',
-//   textAlign: 'center',
-// },
-// variant({
-//   variants: {
-//     scale: 'alerts',
-//     default: {
-//       backgroundColor: '#0984e3',
-//     },
-//     success: {
-//       backgroundColor: '#00b894',
-//     },
-//     error: {
-//       backgroundColor: '#d63031',
-//     },
-//     warning: {
-//       backgroundColor: '#fdcb6e',
-//     },
-//   },
-// })
 
 const Wrapper = styled('div')`
   background-color: ${({ theme }) => theme.colors.background};
@@ -65,10 +35,10 @@ const Wrapper = styled('div')`
 const VariantsExercise = () => (
   <ThemeProvider theme={theme}>
     <Wrapper>
-      <Alert variant="default">default alert</Alert>
-      <Alert variant="success">Success alert</Alert>
-      <Alert variant="error">Error alert</Alert>
-      <Alert variant="warning">Warning alert</Alert>
+      <Alert>default alert</Alert>
+      <Alert>Success alert</Alert>
+      <Alert>Error alert</Alert>
+      <Alert>Warning alert</Alert>
     </Wrapper>
   </ThemeProvider>
 );
