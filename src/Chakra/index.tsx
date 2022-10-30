@@ -9,20 +9,24 @@ import {
   ChakraProvider,
 } from '@chakra-ui/react';
 import { MdStar } from 'react-icons/md';
-import theme from './theme';
+import theme from '../Variants/exercise/theme';
+// import theme from './theme';
 
 // https://chakra-ui.com/docs/styled-system/theme
 
-// 1. Extend the Chakra theme to bring in our brand colors and apply them to the design, perhaps the bg of the badge on line 21 ;-)
+//
+// 1. Extend the theme in theme.ts with to bring in our brand colors
+// 2. import the theme and pass it to the ChakraProvider on line 25
+// 2. Apply our colors to the component bellow, perhaps the background of the badge on line 31 ;-)
 // Bonus: Overide a chakra component with custom styles https://chakra-ui.com/docs/styled-system/component-style
 
 const Example = () => (
-  <ChakraProvider theme={theme}>
+  <ChakraProvider>
     <Center>
       <Box p="5" maxW="320px" borderWidth="1px">
         <Image borderRadius="md" src="https://bit.ly/2k1H1t6" />
         <Flex align="baseline" mt={2}>
-          <Badge bg="brand.robinsEgg">Plus</Badge>
+          <Badge>Plus</Badge>
           <Text
             ml={2}
             textTransform="uppercase"
