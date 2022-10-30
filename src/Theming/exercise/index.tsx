@@ -25,7 +25,7 @@ const Card = styled('div')`
   font-size: 18px;
   font-weight: 800;
   text-align: center;
-  background-color: ${({ theme }) => theme.colors.darkBlue};
+  background-color: ${({ theme }) => theme.colors.shyMoment};
 `;
 
 /*
@@ -33,7 +33,7 @@ const Card = styled('div')`
 */
 const Wrapper = styled('div')`
   padding: 40px;
-  background-color: ${({ theme }) => theme.colors.salmon};
+  background-color: ${({ theme }) => theme.colors.americanRiver};
 `;
 
 /*
