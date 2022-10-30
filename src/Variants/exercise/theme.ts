@@ -28,5 +28,3 @@ const theme = {
 };
 
 export default theme;
-
-// Tip: If you need some inspiration for nicer colors https://flatuicolors.com/palette/us

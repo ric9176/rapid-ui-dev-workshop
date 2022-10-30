@@ -9,7 +9,7 @@ import theme from './theme';
 
 /*
   Exercise TODO:
-  - wrap the whole component with the `ThemeProvider` from "styled-components".
+  - Wrap the whole component with the `ThemeProvider` from "styled-components".
   - create a simple theme in `theme.js` and import it. (`import theme from './theme'`)
   - this theme should have the base colors for your app.
 */
@@ -29,7 +29,7 @@ const Card = styled('div')`
 `;
 
 /*
-  in this component just use the background color from the theme and asign it to this component
+  In this component just use the background color from the theme and asign it to this component
 */
 const Wrapper = styled('div')`
   padding: 40px;

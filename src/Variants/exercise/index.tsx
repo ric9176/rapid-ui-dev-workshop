@@ -9,7 +9,6 @@ import theme from './theme';
   in order to add these new variant styles to your component,
   you need to add it to your styles AT THE END.
 
-  *if you have questions why at the end ask us!
 */
 
 interface AlertProps {
@@ -17,12 +16,43 @@ interface AlertProps {
 }
 
 const alertVariants = variant({
-  key: 'alerts',
+  scale: 'alerts',
+  // prop: 'variant', //NOTE: You can change the name of the variant prop, it defaults to vairant if omitted
 });
 
 const Alert = styled('div')<AlertProps>`
   ${alertVariants}
 `;
+
+//NOTE: You can choose to do this inline: https://styled-system.com/variants#variants
+// const Alert = styled('div')<AlertProps>(
+//   {
+//     borderRadius: '8px',
+//     padding: '8px',
+//     boxShadow:
+//       '0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14) 0 1px 3px 0 rgba(0, 0, 0, 0.12)',
+//     fontSize: '18px',
+//     margin: '24px',
+//     fontWeight: '800',
+//     textAlign: 'center',
+//   },
+//   variant({
+//     variants: {
+//       default: {
+//         backgroundColor: '#0984e3',
+//       },
+//       success: {
+//         backgroundColor: '#00b894',
+//       },
+//       error: {
+//         backgroundColor: '#d63031',
+//       },
+//       warning: {
+//         backgroundColor: '#fdcb6e',
+//       },
+//     },
+//   })
+// );
 
 const Wrapper = styled('div')`
   background-color: ${({ theme }) => theme.colors.background};
