@@ -100,6 +100,12 @@ Bonus: Overide a chakra component with custom styles https://chakra-ui.com/docs/
 - [Build a box](https://styled-system.com/guides/build-a-box)
 - [Chakra docs on style props](https://chakra-ui.com/docs/styled-system/style-props)
 
+### Chakra
+
+- [Chakra docs](https://chakra-ui.com/)
+- [Chakra comparisions - useful for an RFC!](https://chakra-ui.com/getting-started/comparison)
+- [Free EggHead course on building with Chakra](https://egghead.io/courses/build-a-modern-user-interface-with-chakra-ui-fac68106)
+
 ### Storybook
 
 - [Storybook Docs](https://storybook.js.org/)
