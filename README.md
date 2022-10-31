@@ -66,3 +66,41 @@ If we are using Chakra, we probably want to customize the default theme.
 1. Extend the Chakra theme in theme.ts to bring in our brand colors and apply them to the design, perhaps the background of the badge on line 21 ;-)
 
 Bonus: Overide a chakra component with custom styles https://chakra-ui.com/docs/styled-system/component-style
+
+## Links and documentation
+
+### Design Systems
+
+- [Luna (Sainsbury's)](https://luna.sainsburys.co.uk/)
+- [Polaris (Shopify)](https://m2.material.io/design/)
+- [Material (Google)](https://polaris.shopify.com/)
+
+### Component Libaries
+
+- [ChakraUI](https://chakra-ui.com/)
+- [MUI (Material UI)](https://mui.com/)
+- [Ant Design](https://ant.design/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+
+### Styled Components
+
+- [Tagged template literals](https://styled-components.com/docs/api#taggedtemplateliteral)
+- [Original post by Max (creator of styled components) on how they use tagged template literals](https://mxstbr.blog/2016/11/styled-components-magic-explained/)
+- [Styled components docs](https://styled-components.com/)
+
+### Themeing
+
+- [Styled components themeing docs](https://styled-components.com/docs/advanced#theming)
+- [Theme specification](https://styled-system.com/theme-specification/)
+- [Chakra approach to themeing with styled system](https://chakra-ui.com/docs/styled-system/theme)
+
+### Styled System
+
+- [Styled System api](https://styled-system.com/api)
+- [Build a box](https://styled-system.com/guides/build-a-box)
+- [Chakra docs on style props](https://chakra-ui.com/docs/styled-system/style-props)
+
+### Storybook
+
+- [Storybook Docs](https://storybook.js.org/)
+- [Chromatic - Rapid setup for storybook!](https://www.chromatic.com/features/document)

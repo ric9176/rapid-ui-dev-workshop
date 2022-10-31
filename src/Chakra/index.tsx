@@ -17,7 +17,7 @@ import theme from '../Variants/exercise/theme';
 //
 // 1. Extend the theme in theme.ts with to bring in our brand colors
 // 2. import the theme and pass it to the ChakraProvider on line 25
-// 2. Apply our colors to the component bellow, perhaps the background of the badge on line 31 ;-)
+// 3. Apply our colors to the component bellow, perhaps the background of the badge on line 31 ;-)
 // Bonus: Overide a chakra component with custom styles https://chakra-ui.com/docs/styled-system/component-style
 
 const Example = () => (
