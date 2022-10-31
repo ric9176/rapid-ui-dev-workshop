@@ -12,17 +12,11 @@ const Box = styled.div<BoxProps>`
   ${layout}
 `;
 
-const Wrapper = styled('div')`
-  padding: 40px;
-`;
-
 const VariantsExample = () => (
   <ThemeProvider theme={theme}>
-    <Wrapper>
-      <Box width="100%" m={2} p={4} bg="blue">
-        Feeling boxed in?
-      </Box>
-    </Wrapper>
+    <Box width="100%" m={4} p={5} bg="blue">
+      Feeling boxed in?
+    </Box>
   </ThemeProvider>
 );
 

@@ -4,7 +4,7 @@ import brandColors from '../legacy-styles/export/brandColors.scss';
 const Container = styled.div.attrs({ className: 'box' })`
   width: 3em;
   height: 3em;
-  background-color: ${brandColors.electronBlue};
+  background-color: ${brandColors.orangeville};
 `;
 
 const Box = () => <Container as="button">hello</Container>;

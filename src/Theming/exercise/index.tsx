@@ -47,3 +47,4 @@ export default ThemingExercise;
 // Bonus
 // 1. Import the legacy theme colors into your theme.ts and use them
 // 2. Get TypeScript to infer the types in your theme (you'll have to ignore it compaining complaining about other files)
+// 3. Try extending your theme by adding some base styles as we saw in the presentation.
