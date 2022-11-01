@@ -8,4 +8,4 @@ const theme = {
 
 export default theme;
 
-// NOTE, it's good to use a theme specification such as: https://styled-system.com/theme-specification/
+// NOTE, It's a good idea to use a theme specification such as: https://styled-system.com/theme-specification/

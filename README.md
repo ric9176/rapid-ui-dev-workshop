@@ -35,7 +35,10 @@ Your task is to implement the theme.ts. Follow the code comments for guidance.
 3. Implement the colors you have created in `theme.ts` in the styled components to style your card component.
 
 Bonus: Import the brand colors from legacy-styles, add them to your theme and use them also.
+
 Extra bonus: Get TS working for your new theme. Bear in mind you may have ignore it complaining about other files in the project due to multiple theme files ;-)
+
+Have a look at a [theme specification](https://styled-system.com/theme-specification). How would go about structuring your theme?
 
 ## Styled System Exercise
 

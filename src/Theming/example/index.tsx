@@ -3,7 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import theme from './theme';
 
 //Making use of Typescript’s type inference for our theme object 😉
-// const defaultTheme = {};
+
 // declare module 'styled-components' {
 //   type Theme = typeof theme;
 //   export interface DefaultTheme extends Theme {}
