@@ -18,6 +18,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## This repo is the companion to the "Rapid UI Development in React: Harnessing custom component libraries and & design systems" workshop at React Advandced London 2022.
+
 # Folder structure and exercises
 
 In the `src` folder you'll find folders named after the headings on the page. Don't forget to reference the example when completing the exercises 😉
@@ -99,6 +101,10 @@ Bonus: Overide a chakra component with custom styles https://chakra-ui.com/docs/
 - [Styled System api](https://styled-system.com/api)
 - [Build a box](https://styled-system.com/guides/build-a-box)
 - [Chakra docs on style props](https://chakra-ui.com/docs/styled-system/style-props)
+
+### RFC template
+
+- [Decent template for starting an RFC](https://slab.com/library/templates/squarespace-rfc-template/)
 
 ### Chakra
 

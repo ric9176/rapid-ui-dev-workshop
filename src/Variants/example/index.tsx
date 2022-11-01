@@ -12,7 +12,7 @@ interface ButtonProps extends StyleProps {
 }
 
 const buttonStyle = variant({
-  key: 'buttons',
+  scale: 'buttons',
   // prop: 'variant', //NOTE: You can change the name of the variant prop, it defaults to vairant if omitted
 });
 
