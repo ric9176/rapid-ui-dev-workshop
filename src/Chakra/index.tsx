@@ -9,7 +9,6 @@ import {
   ChakraProvider,
 } from '@chakra-ui/react';
 import { MdStar } from 'react-icons/md';
-import theme from '../Variants/exercise/theme';
 // import theme from './theme';
 
 // https://chakra-ui.com/docs/styled-system/theme

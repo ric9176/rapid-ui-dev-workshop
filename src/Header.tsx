@@ -1,4 +1,4 @@
-import { Box, Icon, Spacer, Flex, Heading, Link, Text } from '@chakra-ui/react';
+import { Box, Icon, Spacer, Flex, Heading, Link } from '@chakra-ui/react';
 import { FaGithub } from 'react-icons/fa';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 

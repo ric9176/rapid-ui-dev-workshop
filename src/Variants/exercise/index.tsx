@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import { variant } from 'styled-system';
+// import { variant } from 'styled-system';
 
 import theme from './theme';
 
