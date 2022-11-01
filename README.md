@@ -1,5 +1,7 @@
 # Getting Started
 
+This repo is the companion to the "Rapid UI Development in React: Harnessing custom component libraries and & design systems" workshop at React Advandced London 2022.
+
 Clone the repo and run `yarn` for package installs.
 
 Alternatively you can run `npm i` to run installs.
@@ -17,8 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-## This repo is the companion to the "Rapid UI Development in React: Harnessing custom component libraries and & design systems" workshop at React Advandced London 2022.
 
 # Folder structure and exercises
 
